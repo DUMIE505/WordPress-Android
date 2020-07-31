@@ -1205,4 +1205,27 @@
         <item name="cardCornerRadius">@dimen/mlp_layout_card_radius</item>
     </style>
 
+    <style name="ModalLayoutPickerCategoryEmoji">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/text_sz_medium</item>
+        <item name="android:layout_marginStart">@dimen/mlp_category_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/mlp_category_horizontal_central_margin</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+    </style>
+
+    <style name="ModalLayoutPickerCategoryTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/text_sz_medium</item>
+        <item name="android:layout_marginEnd">@dimen/mlp_category_horizontal_margin</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+    </style>
+
 </resources>

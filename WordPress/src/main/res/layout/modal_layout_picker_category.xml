@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/category_container"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/mlp_layouts_category_height"
+    android:layout_marginEnd="@dimen/mlp_categories_margin"
+    android:background="@drawable/modal_layout_picker_category_background"
+    android:backgroundTint="#ededed"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/emoji"
+        style="@style/ModalLayoutPickerCategoryEmoji"
+        tools:text="👋" />
+
+    <TextView
+        android:id="@+id/category"
+        style="@style/ModalLayoutPickerCategoryTitle"
+        tools:text="About" />
+
+</LinearLayout>

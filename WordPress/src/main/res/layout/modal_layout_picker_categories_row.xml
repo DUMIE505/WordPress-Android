@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/categories_container"
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/categories_recycler_view"
     android:layout_width="match_parent"
     android:layout_height="@dimen/mlp_categories_row_height"
-    android:background="@color/gray_5" />
+    android:clipToPadding="false"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/mlp_layout_card_margin_end"
+    android:paddingStart="@dimen/mlp_layout_card_margin_start"
+    android:background="?attr/colorSurface"
+    android:scrollbars="none" />

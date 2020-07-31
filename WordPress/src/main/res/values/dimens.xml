@@ -553,4 +553,9 @@
     <dimen name="mlp_layout_card_elevation">4dp</dimen>
     <dimen name="mlp_layout_card_radius">4dp</dimen>
     <dimen name="mlp_layouts_line_separator_height">1dp</dimen>
+    <dimen name="mlp_layouts_category_radius">40dp</dimen>
+    <dimen name="mlp_layouts_category_height">36dp</dimen>
+    <dimen name="mlp_category_horizontal_margin">12dp</dimen>
+    <dimen name="mlp_category_horizontal_central_margin">8dp</dimen>
+    <dimen name="mlp_categories_margin">8dp</dimen>
 </resources>
